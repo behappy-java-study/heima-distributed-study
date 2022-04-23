@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        cluster-name: HZ
+        namespace: d83c21cc-2614-41ea-ad2b-17a4ef3d596f
+  application:
+    name: order-service
+server:
+  port: 10090
+#优先当前cluster-name内部服务访问
+#user-service:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule # 负载均衡规则
+feign:
+  httpclient:
+    enabled: true
+    max-connections: 200 # 最大的连接数
+    max-connections-per-route: 50 # 每个路径的最大连接数
