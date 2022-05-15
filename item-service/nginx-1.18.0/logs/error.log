@@ -1,0 +1,5 @@
+2021/07/15 16:20:46 [notice] 27068#30284: signal process started
+2021/07/29 09:09:10 [error] 6804#13316: *2 CreateFile() "D:/lesson/heima127/code/hm-mall-admin/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:9001"
+2021/07/29 09:09:13 [error] 6804#13316: *2 CreateFile() "D:/lesson/heima127/code/hm-mall-admin/js/axios.min.map" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /js/axios.min.map HTTP/1.1", host: "localhost:9001"
+2021/07/29 09:09:34 [notice] 3000#11316: signal process started
+2022/05/03 11:14:59 [emerg] 18748#36660: CreateFile() "D:\Study\heima study\高级篇\学习资料\day04-多级缓存\资料\nginx-1.18.0/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
